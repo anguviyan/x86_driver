@@ -1,0 +1,1 @@
+cmd_/home/sriram/x86_driver/old_module.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/sriram/x86_driver/old_module.ko /home/sriram/x86_driver/old_module.o /home/sriram/x86_driver/old_module.mod.o;  true
